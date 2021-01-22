@@ -1,2 +1,0 @@
-# paramarthaagro
-paramartha agro website
