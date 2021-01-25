@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 13/09/2019 01:45
+    Creation date: 25/01/2021 09:57
     */
 
     @font-face {
@@ -37,16 +37,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-moustache:before { content: "\f100"; }
-.flaticon-male-hair-of-head-and-face-shapes:before { content: "\f101"; }
-.flaticon-scissors-in-a-hair-salon-badge:before { content: "\f102"; }
-.flaticon-beard:before { content: "\f103"; }
-.flaticon-beauty-products:before { content: "\f104"; }
-.flaticon-healthy-lifestyle-logo:before { content: "\f105"; }
+    .flaticon-handshake:before { content: "\f100"; }
+.flaticon-shield:before { content: "\f101"; }
+.flaticon-healthy-lifestyle-logo:before { content: "\f102"; }
+.flaticon-box:before { content: "\f103"; }
+.flaticon-team:before { content: "\f104"; }
+.flaticon-united:before { content: "\f105"; }
+.flaticon-hand:before { content: "\f106"; }
+.flaticon-ok-mark:before { content: "\f107"; }
+.flaticon-development:before { content: "\f108"; }
+.flaticon-idea:before { content: "\f109"; }
     
-    $font-Flaticon-moustache: "\f100";
-    $font-Flaticon-male-hair-of-head-and-face-shapes: "\f101";
-    $font-Flaticon-scissors-in-a-hair-salon-badge: "\f102";
-    $font-Flaticon-beard: "\f103";
-    $font-Flaticon-beauty-products: "\f104";
-    $font-Flaticon-healthy-lifestyle-logo: "\f105";
+    $font-Flaticon-handshake: "\f100";
+    $font-Flaticon-shield: "\f101";
+    $font-Flaticon-healthy-lifestyle-logo: "\f102";
+    $font-Flaticon-box: "\f103";
+    $font-Flaticon-team: "\f104";
+    $font-Flaticon-united: "\f105";
+    $font-Flaticon-hand: "\f106";
+    $font-Flaticon-ok-mark: "\f107";
+    $font-Flaticon-development: "\f108";
+    $font-Flaticon-idea: "\f109";
