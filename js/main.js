@@ -290,7 +290,7 @@
 		 			navToggler = $('.navbar-toggler');
 		 	$('html, body').animate({
 		    scrollTop: $(hash).offset().top
-		  }, 700, 'easeInOutExpo', function(){
+		  }, 1000, 'easeInOutExpo', function(){
 		    window.location.hash = hash;
 		  });
 
