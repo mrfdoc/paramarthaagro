@@ -290,7 +290,7 @@
 		 			navToggler = $('.navbar-toggler');
 		 	$('html, body').animate({
 		    scrollTop: $(hash).offset().top
-		  }, 1000, 'easeInOutExpo', function(){
+		  }, 1250, 'easeInOutExpo', function(){
 		    window.location.hash = hash;
 		  });
 
@@ -347,3 +347,14 @@
 
 })(jQuery);
 
+$(window).scroll(function() {
+	var wScroll = $(this).scrollTop();
+
+	$('.hero-wrap h1').css({
+		'transform' : 'translate(0px, '+ wScroll/12 +'%)'
+	});
+
+	$('.hero-wrap p').css({
+		'transform' : 'translate(0px, '+ wScroll/5 +'%)'
+	});
+});

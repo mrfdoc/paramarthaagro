@@ -8371,18 +8371,19 @@ h1, h2, h3, h4, h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center; }
+  background-position: top center;
+  overflow: hidden; }
   @media (max-width: 1199.98px) {
     .hero-wrap {
       background-position: top center !important; } }
   .hero-wrap .overlay {
     position: absolute;
-    top: 0;
+    top:0;
     left: 0;
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .7;
+    opacity: .75;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
     height: 780px; }
@@ -8428,6 +8429,19 @@ h1, h2, h3, h4, h5,
           color: #bf925b; }
         .slider-text .breadcrumbs span a:hover, .slider-text .breadcrumbs span a:focus {
           color: #bf925b; }
+  
+
+          .breadcrumbss {
+            font-size: 14px;
+            margin-bottom: 20px;
+            z-index: 99;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
+  .breadcrumbss span a:hover {
+    color: #a2aaad;
+  }
+
   .slider-text .bread {
     font-weight: 900;
     color: #fff;
@@ -8992,11 +9006,11 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 4em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9879,59 +9893,7 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    /* ===================================================================
- * # clients
- *
- * ------------------------------------------------------------------- */
-.s-clients {
-  padding-top: 16.2rem;
-  padding-bottom: 16.8rem;
-  background-color: #e6e6e6;
-  color: #757575;
-  position: relative;
-}
-
-
-/* ------------------------------------------------------------------- 
-* ## slider
-* ------------------------------------------------------------------- */
-.clients-outer {
-  margin-top: 3.6rem;
-  padding-bottom: 9rem;
-  text-align: center;
-  position: relative;
-}
-
-.clients__slide {
-  display: block;
-  opacity: .55;
-  padding: 1.5rem 2.8rem;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.clients__slide:hover, .clients__slide:focus {
-  opacity: 1;
-}
-
-
-@media only screen and (max-width: 800px) {
-  .s-clients {
-      padding-bottom: 17.4rem;
-  }
-  .section-header.has-bottom-sep::before {
-      width: 400px;
-  }
-}
-
-/* ===================================================================
- * # clients
- *
- * ------------------------------------------------------------------- */
- .s-clients {
-  padding-top: 16.2rem;
-  padding-bottom: 16.8rem;
-  background-color: #e6e6e6;
-  color: #757575;
-  position: relative;
+.text h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: center;
 }
