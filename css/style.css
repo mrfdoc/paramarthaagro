@@ -3397,7 +3397,7 @@ input[type="button"].btn-block {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.nav-pills .nav-link {
+.na# .nav-link {
   border-radius: 0.25rem; }
 
 .nav-pills .nav-link.active,
@@ -9897,3 +9897,16 @@ textarea.form-control {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: center;
 }
+
+.responss img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .responss img {
+    max-width: 100%; } }
+@media (width: 1200px) {
+  .responss img {
+    max-width: 70%; } }
