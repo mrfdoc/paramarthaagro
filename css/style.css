@@ -9910,3 +9910,20 @@ textarea.form-control {
 @media (width: 1200px) {
   .responss img {
     max-width: 70%; } }
+
+.site-logo img {
+  max-width: 150px;
+  height: 50px;
+  display: block;
+  margin : auto;
+}
+
+.foot-logo img {
+  max-width: 170px;
+  height: 64px;
+}
+
+.mid-logo img {
+  max-width: 150px;
+  height: 150px;
+}
