@@ -9993,3 +9993,19 @@ textarea.form-control {
   color: #000000; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* 404 page */
+
+.error-page .error-code{
+	display: block;
+  	font-size: 150px;
+  	line-height: 150px;
+  	color: #333;
+  	margin-bottom: 20px;
+  	text-shadow: 5px 5px 1px rgba(0,0,0,.1);
+}
+
+.error-page .error-body .btn{
+	margin-top: 30px;
+	font-weight: 700;
+}
