@@ -9987,3 +9987,9 @@ textarea.form-control {
 .fables-main-text-color-link a {
   color: #2C3E4F !important;
 }
+
+.product-details .price span {
+  font-size: 30px;
+  color: #000000; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
